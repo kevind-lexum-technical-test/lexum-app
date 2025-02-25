@@ -12,5 +12,11 @@ public class AppConfig {
     public String getDocsTableName() {
         return docsTableName;
     }
+    @Value("${application.database.database-name}")
+    private String databasName;
+
+    public String getDatabaseName() {
+        return databasName;
+    }
 }
 

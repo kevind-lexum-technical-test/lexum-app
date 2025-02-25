@@ -1,5 +1,13 @@
 # ChangeLog
 
+## 0.0.2
+
+### Features
+
+* Fixing port
+* Adding logs
+* Adding creation and insertion of table
+
 ## 0.0.1
 
 ### Features

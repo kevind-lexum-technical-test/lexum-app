@@ -1,8 +1,0 @@
-CREATE TABLE IF NOT EXISTS docs (
-    id SERIAL PRIMARY KEY,
-    value TEXT NOT NULL
-);
-
-INSERT INTO docs (value)
-SELECT 'Hello Lexum'
-WHERE NOT EXISTS (SELECT 1 FROM docs);
