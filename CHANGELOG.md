@@ -1,5 +1,11 @@
 # ChangeLog
 
+## 0.0.3
+
+### Features
+
+* Adding unhealthy path
+
 ## 0.0.2
 
 ### Features
