@@ -23,6 +23,12 @@ public class LexumAppController {
         return ResponseEntity.ok("Ok");
     }
 
+    @GetMapping("/unhealth")
+    public ResponseEntity<String> notHealthCheck() {
+        logger.error("Unhealth check endpoint called.");
+        return ResponseEntity.ok("Ok");
+    }
+
     @Autowired
     private AppConfig appConfig;
 
